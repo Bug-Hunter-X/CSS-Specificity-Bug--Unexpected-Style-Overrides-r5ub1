@@ -1,0 +1,17 @@
+/* bugSolution.css */
+
+/* Improved Specificity */
+#container .item {
+  /* Use more specific selectors to avoid the conflict */
+  color: blue;
+}
+
+.item {
+  /* This style will not be overridden */
+  background-color: yellow;
+}
+
+/* Alternative using !important, which is generally discouraged unless absolutely needed */
+.item {
+  color: red !important;
+}
