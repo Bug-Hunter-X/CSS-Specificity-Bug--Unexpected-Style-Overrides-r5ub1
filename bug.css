@@ -1,0 +1,1 @@
+The CSS code has a specificity issue where a more specific selector overrides a more general one unexpectedly, leading to styles not being applied as intended.
